@@ -13,8 +13,8 @@ const Footer = () => {
     <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <Link href={'/'} className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             
-        <span className="cursor-pointer ml-3 text-2xl">
-            {/* <img src="/logo1.png"  className='w-20' alt="" /> */}
+        <span className="cursor-pointer text-white ml-3 text-2xl">
+            Algorithm
         </span>
       </Link>
 
