@@ -27,15 +27,15 @@ const Navbar = () => {
           {/* <img src="" alt="" /> */}
           <span className="ml-3 text-white text-xl">Algorithm</span>
         </div></Link>
-        <div ref={ref} className="navitems flex flex-col md:flex-row md:items-center md:bg-inherit bg-indigo-800 px-10 py-4 md:py-0 absolute top-0 left-0 transform transition-transform -translate-x-full h-full md:h-auto md:w-full w-2/3 md:static md:translate-x-0  md:transition-none ease-in-out" >
+        <div ref={ref} className="navitems z-40 flex flex-col md:flex-row md:items-center md:bg-inherit bg-gray-900 px-10 py-4 md:py-0 absolute top-0 left-0 transform transition-transform -translate-x-full h-full md:h-auto md:w-full w-2/3 md:static md:translate-x-0  md:transition-none ease-in-out" >
           <span className='absolute top-8 left-8
           'onClick={toggle} ><AiFillCloseCircle className='text-4xl font-extralight md:hidden' /></span>
           <div className="flex flex-col md:flex-row md:items-center md:space-x-8  mainitems my-24 md:my-4 space-y-6 md:space-y-0">
-            <Link  href={"/about"}><div onClick={toggle} className='hover:text-yellow-600 text-white cursor-pointer'>About</div></Link>
-            {/* <Link  href={"/services"}><div onClick={toggle} className='hover:text-yellow-600 text-white cursor-pointer'>Services</div></Link> */}
-            <Link  href={"#Tasks"}><div onClick={toggle} className= 'hover:text-yellow-600 text-white cursor-pointer'>Tasks</div></Link>
-            <Link  href={"#Venue"}><div onClick={toggle} className= 'hover:text-yellow-600 text-white cursor-pointer'>Venue</div></Link>
-            {/* <Link  href={"/contactus"}><div onClick={toggle} className='hover:text-yellow-600 text-white cursor-pointer'>Contact Us</div></Link> */}
+            {/* <Link  href={"/about"}><div onClick={toggle} className='hover:text-cyan-500 text-white cursor-pointer'>About</div></Link> */}
+            {/* <Link  href={"/services"}><div onClick={toggle} className='hover:text-cyan-500 text-white cursor-pointer'>Services</div></Link> */}
+            <Link  href={"#Tasks"}><div onClick={toggle} className= 'hover:text-cyan-500 text-white cursor-pointer'>Tasks</div></Link>
+            <Link  href={"#Venue"}><div onClick={toggle} className= 'hover:text-cyan-500 text-white cursor-pointer'>Venue</div></Link>
+            {/* <Link  href={"/contactus"}><div onClick={toggle} className='hover:text-cyan-500 text-white cursor-pointer'>Contact Us</div></Link> */}
           </div>
         </div>
         {/* <button class=" text-white bg-yellow-500  mr-40  py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> */}

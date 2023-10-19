@@ -1,4 +1,5 @@
 import { Inter } from '@next/font/google'
+import { BsWhatsapp } from 'react-icons/bs';
 import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 import CountdownTimer from '@/components/countdowntimer'
@@ -7,22 +8,22 @@ import SocialMediaIntegration from '@/components/socialMediaIntegration';
 export default function Home() {
   const targetDate = '2023-11-04T23:59:59'; // Set your target date and time
   return (
-    <div className="space-y-40  min-h-screen flex flex-col justify-center items-center" 
+    <div className="space-y-40 md:mx-10 mx-2  min-h-screen flex flex-col justify-center items-center" 
     // style={{backgroundImage: "url('/fresher.jpg')"}}
     > 
      <section>
      <h1 className="md:text-5xl text-3xl mt-40 text-cyan-500  font-bold mb-4 animate-bounce text-center">Welcome to</h1>
-      <h2 className="md:text-6xl text-5xl text-white text-center font-extrabold mb-8 animate-fade-in-down animate-pulse">
+      <h2 className="md:text-6xl text-5xl text-white text-center font-extrabold mb-8 animate-fade-in-down animate-pulse ">
         THE ALGORITHM 2K23
       </h2>
       <p className="text-lg text-cyan-500 text-center mb-12 animate-fade-in-up">
         Freshers party for CSE (Core) students.
       </p>
-      {/* <Link href="#contactus" className='flex justify-center'>
-        <span className="bg-white  hover:bg-indigo-500 text-purple-900 font-semibold text-xl py-3 px-6 rounded-full transition duration-300 transform hover:scale-105 hover:shadow-lg">
-          Contact Us
+      <Link href="https://chat.whatsapp.com/Gkk156DYDs6DRULMaQPE03" target='_blank' className='flex justify-center'>
+        <span className="bg-white  hover:bg-green-500 text-purple-900 hover:text-white font-semibold text-xl py-3 px-6 rounded-full transition duration-300 transform hover:scale-105 hover:shadow-lg flex items-center space-x-4">
+          <BsWhatsapp/><span>Join Whatsapp Group</span>
         </span> 
-      </Link> */}
+      </Link>
      </section>
      <section>
       {/* Other content of your page */}
