@@ -16,7 +16,7 @@ const MatrixAnimation = () => {
     }
   
     return (
-      <div className=" -z-10  fixed top-0 left-0 h-screen w-full pointer-events-none bg-black text-blue-400 font-mono text-2xl">
+      <div className=" -z-10  fixed top-0 left-0 h-screen w-full pointer-events-none bg-black text-blue-400 font-mono text-xs md:text-xl ">
           <div className="h-full w-full bg-gradient-to-b from-black to-slate-800"></div>
         {matrix.map((item, index) => (
           <div
