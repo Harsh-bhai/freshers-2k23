@@ -34,8 +34,8 @@ const Navbar = () => {
             {/* <Link  href={"/about"}><div onClick={toggle} className='hover:text-cyan-500 text-white cursor-pointer'>About</div></Link> */}
             {/* <Link  href={"/services"}><div onClick={toggle} className='hover:text-cyan-500 text-white cursor-pointer'>Services</div></Link> */}
             <Link  href={"#Tasks"}><div onClick={toggle} className= 'hover:text-cyan-500 text-white cursor-pointer'>Tasks</div></Link>
-            <Link  href={"#Venue"}><div onClick={toggle} className= 'hover:text-cyan-500 text-white cursor-pointer'>Venue</div></Link>
             <Link  href={"#glimpse"}><div onClick={toggle} className='hover:text-cyan-500 text-white cursor-pointer'>Glimpse</div></Link>
+            <Link  href={"#Venue"}><div onClick={toggle} className= 'hover:text-cyan-500 text-white cursor-pointer'>Venue</div></Link>
           </div>
         </div>
         {/* <button class=" text-white bg-yellow-500  mr-40  py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> */}

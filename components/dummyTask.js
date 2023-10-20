@@ -11,7 +11,7 @@ const DummyTask = () => {
             you best of luck for the tasks 👍🏻 hope you all enjoy🎉🥳
           </span>
           <span className="text-white text-2xl text-center">
-          First task coming on 28th October🔥🔥..
+          First task coming on 30th October🔥🔥..
           </span>
           <span className="text-white text-2xl text-center">
           All the best !!
