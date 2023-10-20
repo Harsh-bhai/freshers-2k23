@@ -101,7 +101,7 @@ export default function Home() {
       +
 
       <section id="glimpse" className=" body-font">
-        <div className="container px-5 md:py-24 mx-auto flex flex-wrap">
+        <div className="container px-5 md:py-16 mx-auto flex flex-wrap">
           <div className="flex justify-center w-full mb-20 flex-wrap">
             <span className=" text-5xl text-cyan-500 ">
               Glimpse of Algorithm 2K22
