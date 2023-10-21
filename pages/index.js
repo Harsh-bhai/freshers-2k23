@@ -155,6 +155,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/3 flex flex-col space-y-8 items-center  text-4xl text-white my-4">
             <span className="font-bold">The Roman Park</span>
+            <span className="text-2xl text-cyan-500 font-bold">4th October, 2023 </span>
             <span className="text-2xl text-cyan-500">Time : 9:00AM Onwards</span>
             <span className="font-bold">Contact Info :</span>
             <span className="font-bold text-xl">Saket Yadav : <span className="text-cyan-500">+919575099298</span></span>

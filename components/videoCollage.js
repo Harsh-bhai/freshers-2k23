@@ -10,8 +10,9 @@ const VideoCollage = () => {
           <iframe
             src="2.mp4"
             className="absolute inset-0 w-full h-full"
-            frameborder="0"
+            frameBorder="0"
             allowfullscreen
+            controls
           ></iframe>
         </div>
       </div>
@@ -20,8 +21,9 @@ const VideoCollage = () => {
           <iframe
             src="3.mp4"
             className="absolute inset-0 w-full h-full"
-            frameborder="0"
+            frameBorder="0"
             allowfullscreen
+            controls
           ></iframe>
         </div>
       </div>
@@ -30,8 +32,9 @@ const VideoCollage = () => {
           <iframe
             src="1.mp4"
             className="absolute inset-0 w-full h-full"
-            frameborder="0"
+            frameBorder="0"
             allowfullscreen
+            controls
           ></iframe>
         </div>
       </div>
