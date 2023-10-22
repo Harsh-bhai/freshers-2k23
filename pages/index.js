@@ -1,5 +1,5 @@
 import { Inter } from "@next/font/google";
-import { BsWhatsapp } from "react-icons/bs";
+import { BsWhatsapp,BsInstagram } from "react-icons/bs";
 import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 import CountdownTimer from "@/components/countdowntimer";
@@ -24,6 +24,7 @@ export default function Home() {
         <p className="text-lg text-cyan-500 text-center mb-12 animate-fade-in-up">
           Freshers party for CSE (Core) students.
         </p>
+        <div className="flex md:flex-row flex-col md:space-x-10 md:space-y-0 space-y-6 ">
         <Link
           href="https://chat.whatsapp.com/Gkk156DYDs6DRULMaQPE03"
           target="_blank"
@@ -34,6 +35,17 @@ export default function Home() {
             <span>Join Whatsapp Group</span>
           </span>
         </Link>
+        <Link
+          href="https://instagram.com/the_algorithm_2k23?igshid=MzRlODBiNWFlZA=="
+          target="_blank"
+          className="flex justify-center"
+        >
+          <span className="bg-cyan-600 text-white  hover:bg-pink-500  hover:text-white font-semibold text-xl py-3 px-6 rounded-full transition duration-300 transform hover:scale-105 hover:shadow-lg flex items-center space-x-4">
+            <BsInstagram />
+            <span>Follow Instagram Page</span>
+          </span>
+        </Link>
+        </div>
       </section>
       <section>
         {/* Other content of your page */}
