@@ -10,11 +10,12 @@ const DummyTask = () => {
             your performance in the task will get you closer to tags👀 We wish
             you best of luck for the tasks 👍🏻 hope you all enjoy🎉🥳
           </span>
-          <span className="text-white text-2xl text-center">
-          First task coming on 30th October🔥🔥..
+          <span className="text-white  text-2xl text-center">
+          First task coming on 
           </span>
+          <span className='font-bold text-2xl text-white '> 27th October🔥🔥..</span>
           <span className="text-white text-2xl text-center">
-          All the best !!
+          All the best & Stay Tuned...!!
           </span>
 
         </div>
