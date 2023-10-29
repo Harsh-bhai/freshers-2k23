@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const DummyTask = () => {
+const Task1 = () => {
   return (
     <div className=" flex flex-col space-y-8 justify-center md:my-20 items-center mx-8">
       <span className="text-center text-5xl text-cyan-500">Tasks</span>
@@ -59,4 +59,4 @@ const DummyTask = () => {
   );
 };
 
-export default DummyTask;
+export default Task1;

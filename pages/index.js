@@ -4,7 +4,8 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 import CountdownTimer from "@/components/countdowntimer";
 import VideoCollage from "@/components/videoCollage";
-import DummyTask from "@/components/dummyTask";
+import Task1 from "@/components/task1";
+import Task2 from "@/components/task2";
 // import SocialMediaIntegration from "@/components/socialMediaIntegration";
 
 export default function Home() {
@@ -53,7 +54,8 @@ export default function Home() {
       </section>
 
       <section id="Tasks">
-        <DummyTask />
+        {/* <Task1 /> */}
+        <Task2/>
       </section>
 
       <section id="glimpse" className=" body-font">
