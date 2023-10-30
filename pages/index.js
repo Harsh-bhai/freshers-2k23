@@ -6,6 +6,7 @@ import CountdownTimer from "@/components/countdowntimer";
 import VideoCollage from "@/components/videoCollage";
 import Task1 from "@/components/task1";
 import Task2 from "@/components/task2";
+import Task3 from "@/components/task3";
 // import SocialMediaIntegration from "@/components/socialMediaIntegration";
 
 export default function Home() {
@@ -55,7 +56,7 @@ export default function Home() {
 
       <section id="Tasks">
         {/* <Task1 /> */}
-        <Task2/>
+        <Task3/>
       </section>
 
       <section id="glimpse" className=" body-font">
